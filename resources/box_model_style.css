@@ -1,0 +1,51 @@
+/*
+  white: #FFFFFF
+deep blue: #336699
+rusty orange: #CC3300
+*/
+
+h1, h2, h3, h4, h5 {
+  color: #336699;
+}
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: 2px dashed #CC3300;
+  padding: 10px;
+}
+
+a {
+  color: #336699;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #CC3300;
+}
+
+.box-demo {
+  background-color: #336699;
+  color: white;
+  width: 400px;
+  padding: 20px;
+  border: 4px dotted #CC3300;
+  margin: 30px;
+}
+
+.image-box {
+  background-color: #336699;
+  width: 646px;
+  padding: 25px;
+  border: 6px double #CC3300;
+  margin: 30px auto;
+}
+
+body {
+  padding: 20px;
+  font-size: 18px;
+}
